@@ -1,7 +1,35 @@
-p{
-    font-size: 10px;
+body {
+    font-family: 'Merriweather', serif;
 }
-.parent{
+
+h2 {
     font-size: 30px;
-    color: steelblue;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+/* Header area */
+header {
+    display: flex;
+}
+
+.logo-a {
+    color: orangered;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+Section {
+    display: flex;
+}
+
+.left-section {
+    width: 30%;
+}
+
+.developer-name {
+    font-size: 55px;
+    color: orangered
 }
