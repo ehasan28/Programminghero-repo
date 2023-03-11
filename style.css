@@ -11,6 +11,7 @@ h2 {
 /* Header area */
 header {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo-a {
@@ -19,6 +20,9 @@ header {
 
 .nav-menu li {
     list-style: none;
+    display: inline;
+    margin-left: 50px;
+
 }
 
 Section {
